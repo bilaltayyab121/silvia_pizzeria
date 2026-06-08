@@ -60,7 +60,6 @@ function App() {
       <Header 
         language={language} 
         setLanguage={setLanguage} 
-        whatsappNumber={whatsappNumber} 
         cartCount={cart.reduce((sum, item) => sum + item.quantity, 0)}
         onCartClick={() => setIsCartOpen(true)}
       />
