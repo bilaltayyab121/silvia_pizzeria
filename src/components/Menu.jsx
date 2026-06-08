@@ -24,21 +24,23 @@ export default function Menu({ categories, items, addToCart, language }) {
     <section id="menu" className="mt-12">
       <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
         {/* Categories */}
-        <div className="flex flex-wrap gap-2 rounded-xl bg-white p-2 shadow-sm border border-slate-100">
-          {categories.map((category) => (
-            <button
-              key={category.en}
-              type="button"
-              onClick={() => setActiveCategory(category.en)}
-              className={`rounded-lg px-4 py-2 text-sm font-bold transition-all ${
-                activeCategory === category.en
-                  ? 'bg-italian-red text-white shadow-md'
-                  : 'bg-transparent text-slate-600 hover:bg-slate-50'
-              }`}
-            >
-              {language === 'fr' ? category.fr : category.en}
-            </button>
-          ))}
+        <div className="flex w-full overflow-x-auto no-scrollbar md:w-auto">
+          <div className="flex flex-nowrap gap-2 rounded-xl bg-white p-2 shadow-sm border border-slate-100 min-w-max md:min-w-0">
+            {categories.map((category) => (
+              <button
+                key={category.en}
+                type="button"
+                onClick={() => setActiveCategory(category.en)}
+                className={`whitespace-nowrap rounded-lg px-4 py-2 text-sm font-bold transition-all ${
+                  activeCategory === category.en
+                    ? 'bg-italian-red text-white shadow-md'
+                    : 'bg-transparent text-slate-600 hover:bg-slate-50'
+                }`}
+              >
+                {language === 'fr' ? category.fr : category.en}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Search Bar */}

@@ -85,7 +85,7 @@ export const menuItems = [
     descriptionFr: "Jambon de Parme, roquette",
     price: 128,
     image:
-      "https://images.unsplash.com/photo-1574071318508-1cdbad80ad38?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: 9,
@@ -105,7 +105,7 @@ export const menuItems = [
     descriptionFr: "Sauce crémeuse aux œufs, pancetta",
     price: 80,
     image:
-      "https://images.unsplash.com/photo-1612450844944-1b3ca8faef5a?auto=format&fit=crop&w=800&q=80",
+      "https://plus.unsplash.com/premium_photo-1678897742200-85f052d33a71?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 11,
@@ -125,7 +125,7 @@ export const menuItems = [
     descriptionFr: "Mélange de fruits de mer, ail, tomate",
     price: 110,
     image:
-      "https://images.unsplash.com/photo-1563379091339-03b21bc4a4f8?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1668269379336-01eccbc294be?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 13,
@@ -185,7 +185,7 @@ export const menuItems = [
     descriptionFr: "Eau minérale fraîche",
     price: 20,
     image:
-      "https://images.unsplash.com/photo-1559839914-17aae19cea9e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1626810333910-c4a297aff6ab?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 19,
