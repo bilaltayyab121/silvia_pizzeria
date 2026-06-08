@@ -10,11 +10,7 @@ export default function About({ language }) {
     >
       <SectionTitle
         number="01"
-        title={
-          language === "fr"
-            ? "À propos de Silvia & Jalal"
-            : "About Silvia & Jalal"
-        }
+        title={language === "fr" ? "À propos de Silvia" : "About Silvia"}
         description={
           language === "fr"
             ? "Silvia Pizzeria est un restaurant familial où chaque pizza est préparée avec des ingrédients frais."
@@ -25,8 +21,8 @@ export default function About({ language }) {
         <div className="space-y-6 text-slate-700">
           <p>
             {language === "fr"
-              ? "Silvia et Jalal ont ouvert Silvia Pizzeria pour apporter le confort italien classique à Témara."
-              : "Silvia and Jalal opened Silvia Pizzeria to bring classic Italian comfort to Témara with a bright seaside atmosphere."}
+              ? "Silvia ont ouvert Silvia Pizzeria pour apporter le confort italien classique à Témara."
+              : "Silvia opened Silvia Pizzeria to bring classic Italian comfort to Témara with a bright seaside atmosphere."}
           </p>
         </div>
         <div className="space-y-4 rounded-xl bg-italian-cream p-6 text-slate-900 shadow-soft">

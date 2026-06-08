@@ -4,25 +4,37 @@ import SectionTitle from './SectionTitle';
 
 export default function WhyChooseUs({ language }) {
   const features = [
-    { 
-      icon: Sparkles, 
-      title: language === 'fr' ? 'Ingrédients frais' : 'Fresh Ingredients', 
-      text: language === 'fr' ? 'Mozzarella premium, tomates mûres.' : 'Premium mozzarella, ripe tomatoes, and fragrant herbs in each dish.' 
+    {
+      icon: Sparkles,
+      title: language === "fr" ? "Ingrédients frais" : "Fresh Ingredients",
+      text:
+        language === "fr"
+          ? "Mozzarella premium, tomates mûres."
+          : "Premium mozzarella, ripe tomatoes, and fragrant herbs in each dish.",
     },
-    { 
-      icon: MapPin, 
-      title: language === 'fr' ? 'Vue sur la mer' : 'Sea View', 
-      text: language === 'fr' ? "Profitez d'une belle ambiance océanique." : 'Enjoy your meal with a beautiful ocean atmosphere by Casino plage.' 
+    {
+      icon: MapPin,
+      title: language === "fr" ? "Vue sur la mer" : "Sea View",
+      text:
+        language === "fr"
+          ? "Profitez d'une belle ambiance océanique."
+          : "Enjoy your meal with a beautiful ocean atmosphere by Casino plage.",
     },
-    { 
-      icon: Ticket, 
-      title: language === 'fr' ? 'Service sympathique' : 'Friendly Service', 
-      text: language === 'fr' ? 'Silvia et Jalal vous accueillent chaleureusement.' : 'Silvia and Jalal welcome you with care and Italian warmth.' 
+    {
+      icon: Ticket,
+      title: language === "fr" ? "Service sympathique" : "Friendly Service",
+      text:
+        language === "fr"
+          ? "Silvia vous accueill chaleureusement."
+          : "Silvia welcome you with care and Italian warmth.",
     },
-    { 
-      icon: Truck, 
-      title: language === 'fr' ? 'Livraison rapide' : 'Fast Delivery', 
-      text: language === 'fr' ? 'Commandez via WhatsApp ou Yassir.' : 'Order via WhatsApp or Yassir and receive hot food quickly.' 
+    {
+      icon: Truck,
+      title: language === "fr" ? "Livraison rapide" : "Fast Delivery",
+      text:
+        language === "fr"
+          ? "Commandez via WhatsApp ou Yassir."
+          : "Order via WhatsApp or Yassir and receive hot food quickly.",
     },
   ];
 

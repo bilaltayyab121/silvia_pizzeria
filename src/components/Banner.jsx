@@ -20,8 +20,8 @@ export default function Banner({ language }) {
         </h1>
         <p className="max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
           {language === "fr"
-            ? "Découvrez des saveurs italiennes fraîches au bord de la mer à Casino plage, Témara. Chaque plat est préparé avec amour par Silvia & Jalal."
-            : "Discover fresh Italian flavors by the sea in Casino plage, Témara. Every dish is prepared with love by Silvia & Jalal."}
+            ? "Découvrez des saveurs italiennes fraîches au bord de la mer à Casino plage, Témara. Chaque plat est préparé avec amour par Silvia."
+            : "Discover fresh Italian flavors by the sea in Casino plage, Témara. Every dish is prepared with love by Silvia."}
         </p>
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
           <a
