@@ -1,4 +1,10 @@
-export const menuCategories = ['All', 'Pizzas', 'Pastas', 'Salads', 'Beverages'];
+export const menuCategories = [
+  { en: 'All', fr: 'Tout' },
+  { en: 'Pizzas', fr: 'Pizzas' },
+  { en: 'Pastas', fr: 'Pâtes' },
+  { en: 'Salads', fr: 'Salades' },
+  { en: 'Beverages', fr: 'Boissons' },
+];
 
 export const menuItems = [
   {
@@ -6,6 +12,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Margherita',
     description: 'Tomato sauce, mozzarella, basil',
+    descriptionFr: 'Sauce tomate, mozzarella, basilic',
     price: 63,
   },
   {
@@ -13,6 +20,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Vegetariana',
     description: 'Mixed vegetables',
+    descriptionFr: 'Légumes assortis',
     price: 78,
   },
   {
@@ -20,6 +28,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Pepperoni',
     description: 'Pepperoni, mozzarella',
+    descriptionFr: 'Pepperoni, mozzarella',
     price: 105,
   },
   {
@@ -27,6 +36,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Quatro Fromaggi',
     description: 'Four cheeses',
+    descriptionFr: 'Quatre fromages',
     price: 89,
   },
   {
@@ -34,6 +44,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Frutti Di Mare',
     description: 'Seafood',
+    descriptionFr: 'Fruits de mer',
     price: 99,
   },
   {
@@ -41,6 +52,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Silvia Special',
     description: 'Specialty of the house',
+    descriptionFr: 'Spécialité de la maison',
     price: 115,
   },
   {
@@ -48,6 +60,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Salmone',
     description: 'Salmon, cream cheese',
+    descriptionFr: 'Saumon, fromage à la crème',
     price: 105,
   },
   {
@@ -55,6 +68,7 @@ export const menuItems = [
     category: 'Pizzas',
     name: 'Parma',
     description: 'Parma ham, rocket',
+    descriptionFr: 'Jambon de Parme, roquette',
     price: 128,
   },
   {
@@ -62,6 +76,7 @@ export const menuItems = [
     category: 'Pastas',
     name: 'Spaghetti Bolognaise',
     description: 'Classic beef tomato sauce',
+    descriptionFr: 'Sauce tomate classique au bœuf',
     price: 80,
   },
   {
@@ -69,6 +84,7 @@ export const menuItems = [
     category: 'Pastas',
     name: 'Penne Carbonara',
     description: 'Creamy egg sauce, pancetta',
+    descriptionFr: 'Sauce crémeuse aux œufs, pancetta',
     price: 80,
   },
   {
@@ -76,6 +92,7 @@ export const menuItems = [
     category: 'Pastas',
     name: 'Lasagne Bolognaise',
     description: 'Layered pasta with rich ragù',
+    descriptionFr: 'Pâtes en couches avec un riche ragù',
     price: 110,
   },
   {
@@ -83,6 +100,7 @@ export const menuItems = [
     category: 'Pastas',
     name: 'Spaghetti Frutti Di Mare',
     description: 'Mixed seafood, garlic, tomato',
+    descriptionFr: 'Mélange de fruits de mer, ail, tomate',
     price: 110,
   },
   {
@@ -90,6 +108,7 @@ export const menuItems = [
     category: 'Salads',
     name: 'Salade César',
     description: 'Romaine, chicken, parmesan, croutons',
+    descriptionFr: 'Romaine, poulet, parmesan, croûtons',
     price: 100,
   },
   {
@@ -97,6 +116,7 @@ export const menuItems = [
     category: 'Salads',
     name: 'Salade Italienne by Silvia',
     description: 'Tomato, mozzarella, basil, olives',
+    descriptionFr: 'Tomate, mozzarella, basilic, olives',
     price: 110,
   },
   {
@@ -104,6 +124,7 @@ export const menuItems = [
     category: 'Salads',
     name: 'Salade Fruti De Mare',
     description: 'Seafood salad with citrus dressing',
+    descriptionFr: 'Salade de fruits de mer avec vinaigrette aux agrumes',
     price: 78,
   },
   {
@@ -111,6 +132,7 @@ export const menuItems = [
     category: 'Beverages',
     name: 'Soft Drink',
     description: 'Fresh soda with ice',
+    descriptionFr: 'Soda frais avec glace',
     price: 15,
   },
   {
@@ -118,6 +140,7 @@ export const menuItems = [
     category: 'Beverages',
     name: 'Fresh Juice',
     description: 'Orange or lemon juice',
+    descriptionFr: 'Jus d\'orange ou de citron',
     price: 25,
   },
   {
@@ -125,6 +148,7 @@ export const menuItems = [
     category: 'Beverages',
     name: 'Sparkling Water',
     description: 'Chilled mineral water',
+    descriptionFr: 'Eau minérale fraîche',
     price: 20,
   },
   {
@@ -132,6 +156,7 @@ export const menuItems = [
     category: 'Beverages',
     name: 'Italian Soda',
     description: 'House-made fruit soda',
+    descriptionFr: 'Soda aux fruits fait maison',
     price: 30,
   },
 ];
