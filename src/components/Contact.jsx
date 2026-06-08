@@ -64,10 +64,7 @@ export default function Contact({ language }) {
   ];
 
   return (
-    <section
-      id="contact"
-      className="mt-20 rounded-[40px] border border-slate-200 bg-white px-6 py-12 shadow-soft sm:px-10"
-    >
+    <section id="contact" className="rounded-[40px] border border-slate-200 bg-white px-6 py-10 shadow-soft sm:px-10">
       <SectionTitle
         number="05"
         title={language === "fr" ? "Contact & Réseaux" : "Contact & Social"}

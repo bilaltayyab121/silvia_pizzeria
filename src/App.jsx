@@ -64,28 +64,36 @@ function App() {
         onCartClick={() => setIsCartOpen(true)}
       />
 
-      <main className="mx-auto max-w-6xl px-6 py-10 md:px-8">
+      <main className="mx-auto max-w-6xl px-6 py-6 md:px-8">
         <Banner language={language} />
 
         <About language={language} />
 
-        <SectionTitle 
-          number="02" 
-          title={language === 'fr' ? 'Menu' : 'Menu'} 
-          description={language === 'fr' ? 'Parcourez nos pizzas, pâtes, salades et boissons.' : 'Browse our pizza, pasta, salad, and beverage choices.'} 
-        />
-        <Menu 
-          categories={menuCategories} 
-          items={menuItems} 
-          addToCart={addToCart} 
-          language={language} 
-        />
+        <div className="mt-24">
+          <SectionTitle 
+            number="02" 
+            title={language === 'fr' ? 'Menu' : 'Menu'} 
+            description={language === 'fr' ? 'Parcourez nos pizzas, pâtes, salades et boissons.' : 'Browse our pizza, pasta, salad, and beverage choices.'} 
+          />
+          <Menu 
+            categories={menuCategories} 
+            items={menuItems} 
+            addToCart={addToCart} 
+            language={language} 
+          />
+        </div>
 
-        <WhyChooseUs language={language} />
+        <div className="mt-16">
+          <WhyChooseUs language={language} />
+        </div>
 
-        <Location language={language} />
+        <div className="mt-16">
+          <Location language={language} />
+        </div>
 
-        <Contact language={language} />
+        <div className="mt-16">
+          <Contact language={language} />
+        </div>
       </main>
 
       <Footer language={language} />
