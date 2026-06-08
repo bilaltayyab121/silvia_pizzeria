@@ -64,23 +64,16 @@ export default function Contact({ language }) {
   ];
 
   return (
-    <section id="contact" className="rounded-[40px] border border-slate-200 bg-white px-6 py-10 shadow-soft sm:px-10">
-      <SectionTitle
-        number="05"
-        title={language === "fr" ? "Contact & Réseaux" : "Contact & Social"}
-        description={
-          language === "fr"
-            ? "Contactez Silvia Pizzeria par téléphone, email ou suivez-nous sur les réseaux sociaux."
-            : "Reach Silvia Pizzeria by phone, email, or follow us on our social media channels."
-        }
+    <section id="contact" className="rounded-2xl border border-slate-200 bg-white px-6 py-10 shadow-soft sm:px-10">
+      <SectionTitle 
+        number="05" 
+        title={language === 'fr' ? 'Contact & Réseaux' : 'Contact & Social'} 
+        description={language === 'fr' ? "Contactez Silvia Pizzeria par téléphone, email ou suivez-nous sur les réseaux sociaux." : 'Reach Silvia Pizzeria by phone, email, or follow us on our social media channels.'} 
       />
-
+      
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {contactInfo.map((item, index) => (
-          <div
-            key={index}
-            className="flex flex-col rounded-[32px] border border-slate-100 bg-italian-cream/50 p-6 transition hover:bg-italian-cream hover:shadow-sm"
-          >
+          <div key={index} className="flex flex-col rounded-xl border border-slate-100 bg-italian-cream/50 p-6 transition hover:bg-italian-cream hover:shadow-sm">
             <div className="flex items-center gap-3 text-italian-red">
               <item.icon className="h-6 w-6" />
               <span className="font-bold uppercase tracking-wider text-xs">

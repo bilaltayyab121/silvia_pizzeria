@@ -29,7 +29,7 @@ export default function WhyChooseUs({ language }) {
   return (
     <section
       id="why"
-      className="rounded-[40px] border border-slate-200 bg-white px-6 py-10 shadow-soft sm:px-10"
+      className="rounded-2xl border border-slate-200 bg-white px-6 py-10 shadow-soft sm:px-10"
     >
       <SectionTitle
         number="03"
@@ -44,7 +44,7 @@ export default function WhyChooseUs({ language }) {
         {features.map((feature) => (
           <div
             key={feature.title}
-            className="rounded-[28px] border border-slate-200 bg-italian-cream p-6"
+            className="rounded-xl border border-slate-200 bg-italian-cream p-6"
           >
             <feature.icon className="h-6 w-6 text-italian-red" />
             <h3 className="mt-4 text-xl font-semibold text-slate-900">

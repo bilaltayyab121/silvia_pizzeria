@@ -6,7 +6,7 @@ export default function About({ language }) {
   return (
     <section
       id="about"
-      className="mt-16 rounded-[40px] border border-slate-200 bg-white px-6 py-10 shadow-soft sm:px-10"
+      className="mt-16 rounded-2xl border border-slate-200 bg-white px-6 py-10 shadow-soft sm:px-10"
     >
       <SectionTitle
         number="01"
@@ -29,7 +29,7 @@ export default function About({ language }) {
               : "Silvia and Jalal opened Silvia Pizzeria to bring classic Italian comfort to Témara with a bright seaside atmosphere."}
           </p>
         </div>
-        <div className="space-y-4 rounded-[32px] bg-italian-cream p-6 text-slate-900 shadow-soft">
+        <div className="space-y-4 rounded-xl bg-italian-cream p-6 text-slate-900 shadow-soft">
           <div className="flex items-center gap-3">
             <Sparkles className="h-6 w-6 text-italian-red" />
             <span className="font-semibold">

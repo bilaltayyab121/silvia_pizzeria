@@ -16,19 +16,19 @@ export default function Location({ language }) {
       id="location"
       className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start"
     >
-      <div className="rounded-[40px] border border-slate-200 bg-white p-6 shadow-soft sm:p-8">
+      <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft sm:p-8">
         <SectionTitle
           number="04"
           title={
             language === "fr" ? "Emplacement & Horaires" : "Location & Hours"
           }
-          description={
+          description={(
             language === "fr"
               ? "Nous sommes au Casino plage, 127, Témara."
               : "Find us at Casino plage, 127, Témara. Open Tuesday through Sunday for lunch and dinner."
-          }
+          )}
         />
-        <div className="overflow-hidden rounded-[28px] border border-slate-200">
+        <div className="overflow-hidden rounded-xl border border-slate-200">
           <iframe
             title="Silvia Pizzeria map"
             src="https://maps.google.com/maps?q=Casino%20plage%2C%20127%2C%20T%C3%A9mara%2C%20Morocco&output=embed"
@@ -38,7 +38,7 @@ export default function Location({ language }) {
         </div>
       </div>
 
-      <div className="space-y-6 rounded-[40px] border border-slate-200 bg-italian-cream p-8 shadow-soft">
+      <div className="space-y-6 rounded-2xl border border-slate-200 bg-italian-cream p-8 shadow-soft">
         <div>
           <h3 className="font-heading text-2xl font-semibold text-slate-900">
             {language === "fr" ? "Horaires" : "Opening Hours"}
@@ -49,7 +49,7 @@ export default function Location({ language }) {
               : "Closed Mondays. Open every other day from noon to midnight."}
           </p>
         </div>
-        <div className="space-y-3 rounded-[28px] bg-white p-6 text-slate-700 shadow-sm">
+        <div className="space-y-3 rounded-xl bg-white p-6 text-slate-700 shadow-sm">
           {openingHours.map((entry) => (
             <div
               key={entry.day}

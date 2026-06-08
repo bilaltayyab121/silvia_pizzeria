@@ -24,19 +24,19 @@ export default function Menu({ categories, items, addToCart, language }) {
     <section id="menu" className="mt-12">
       <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
         {/* Categories */}
-        <div className="flex flex-wrap gap-2 rounded-2xl bg-white p-2 shadow-sm border border-slate-100">
+        <div className="flex flex-wrap gap-2 rounded-xl bg-white p-2 shadow-sm border border-slate-100">
           {categories.map((category) => (
             <button
               key={category.en}
               type="button"
               onClick={() => setActiveCategory(category.en)}
-              className={`rounded-xl px-4 py-2 text-sm font-bold transition-all ${
+              className={`rounded-lg px-4 py-2 text-sm font-bold transition-all ${
                 activeCategory === category.en
-                  ? "bg-italian-red text-white shadow-md"
-                  : "bg-transparent text-slate-600 hover:bg-slate-50"
+                  ? 'bg-italian-red text-white shadow-md'
+                  : 'bg-transparent text-slate-600 hover:bg-slate-50'
               }`}
             >
-              {language === "fr" ? category.fr : category.en}
+              {language === 'fr' ? category.fr : category.en}
             </button>
           ))}
         </div>
@@ -50,12 +50,8 @@ export default function Menu({ categories, items, addToCart, language }) {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={
-              language === "fr"
-                ? "Rechercher un plat..."
-                : "Search for a dish..."
-            }
-            className="w-full rounded-2xl border border-slate-200 bg-white py-3 pl-11 pr-11 text-sm font-medium text-slate-900 outline-none transition focus:border-italian-red focus:ring-4 focus:ring-italian-red/5 shadow-sm"
+            placeholder={language === 'fr' ? 'Rechercher un plat...' : 'Search for a dish...'}
+            className="w-full rounded-xl border border-slate-200 bg-white py-3 pl-11 pr-11 text-sm font-medium text-slate-900 outline-none transition focus:border-italian-red focus:ring-4 focus:ring-italian-red/5 shadow-sm"
           />
           {searchQuery && (
             <button
